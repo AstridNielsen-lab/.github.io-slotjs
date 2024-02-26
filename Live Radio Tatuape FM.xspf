@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>Lista de reprodução</title>
+	<trackList>
+		<track>
+			<location>https://freeuk22.listen2myradio.com/live.mp3?typeportmount=s1_10144_stream_334312003</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+				<vlc:option>network-caching=9000</vlc:option>
+				<vlc:option>sout=#transcode{vcodec=mp2v,vb=800,acodec=mpga,ab=128,channels=2,samplerate=44100,scodec=none}:std{access=file{no-overwrite},mux=ts,dst=&#39;C:/Users/likel/Desktop/AstridBot/Radio Tatuape FM.ts&#39;}</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://freeuk22.listen2myradio.com/live.mp3?typeportmount=s1_10144_stream_334312003</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>1</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://freeuk22.listen2myradio.com/live.mp3?typeportmount=s1_10144_stream_334312003</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>2</vlc:id>
+				<vlc:option>network-caching=1</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://freeuk22.listen2myradio.com/live.mp3?typeportmount=s1_10144_stream_334312003</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>3</vlc:id>
+				<vlc:option>network-caching=3000</vlc:option>
+			</extension>
+		</track>
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:item tid="0"/>
+		<vlc:item tid="1"/>
+		<vlc:item tid="2"/>
+		<vlc:item tid="3"/>
+	</extension>
+</playlist>
